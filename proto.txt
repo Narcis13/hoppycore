@@ -1,0 +1,87 @@
+suma(9,4)
+
+
+suma (
+
+    9
+	4
+
+)  
+	
+suma(pe:9,cu:4)
+
+suma (
+
+     dintre:9
+	 si:4
+
+)	
+
+
+on(
+
+	'click'
+	(ev)->
+				print(ev.text)
+  
+)
+
+if(
+
+	x>0
+	
+	then:
+			print('mai mare')
+			
+	else:
+			print('mai mic')
+
+)
+
+while(
+
+      x<10
+	  
+	  do:
+			print(x)
+			x++
+			
+)
+
+//assignment
+
+
+x(13)
+int(*x,13)
+
+
+//array
+Array(string)(*nume,['sadasdsa',['asdasda']])
+Map(key:string,value:float)(*dictionar,{'aaaa':34.67})
+
+
+nume.map(
+    (string(el))->
+        print(el)
+)
+
+func definita
+
+int(
+	
+	*imparte
+	(pe:int(x) la:int(y))->
+									return(x/y)
+
+)
+
+aduna(
+
+	(pe:x, cu:y)->
+						return(x+y)
+)
+
+
+aduna(6,7))
+aduna(pe:9 cu:8)
+
