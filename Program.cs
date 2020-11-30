@@ -7,7 +7,7 @@ namespace hoppy
         static void Main(string[] args)
         {
             int sss =6+5;
-            Console.WriteLine("Hello World!"+sss);
+            Console.WriteLine("Hello World! "+sss);
             sss++;
         }
     }
