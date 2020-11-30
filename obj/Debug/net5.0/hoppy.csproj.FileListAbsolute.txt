@@ -1,0 +1,16 @@
+C:\hobby\hoppy\bin\Debug\net5.0\hoppy.exe
+C:\hobby\hoppy\bin\Debug\net5.0\hoppy.deps.json
+C:\hobby\hoppy\bin\Debug\net5.0\hoppy.runtimeconfig.json
+C:\hobby\hoppy\bin\Debug\net5.0\hoppy.runtimeconfig.dev.json
+C:\hobby\hoppy\bin\Debug\net5.0\hoppy.dll
+C:\hobby\hoppy\bin\Debug\net5.0\ref\hoppy.dll
+C:\hobby\hoppy\bin\Debug\net5.0\hoppy.pdb
+C:\hobby\hoppy\obj\Debug\net5.0\hoppy.csprojAssemblyReference.cache
+C:\hobby\hoppy\obj\Debug\net5.0\hoppy.GeneratedMSBuildEditorConfig.editorconfig
+C:\hobby\hoppy\obj\Debug\net5.0\hoppy.AssemblyInfoInputs.cache
+C:\hobby\hoppy\obj\Debug\net5.0\hoppy.AssemblyInfo.cs
+C:\hobby\hoppy\obj\Debug\net5.0\hoppy.csproj.CoreCompileInputs.cache
+C:\hobby\hoppy\obj\Debug\net5.0\hoppy.dll
+C:\hobby\hoppy\obj\Debug\net5.0\ref\hoppy.dll
+C:\hobby\hoppy\obj\Debug\net5.0\hoppy.pdb
+C:\hobby\hoppy\obj\Debug\net5.0\hoppy.genruntimeconfig.cache
