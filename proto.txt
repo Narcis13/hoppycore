@@ -85,3 +85,30 @@ aduna(
 aduna(6,7)
 aduna(pe:9 cu:8)
 
+//class
+Shape(
+	class(
+         extend:Object
+
+         name('')
+		 
+		 new(
+			 (theName:aName)->
+			 		name(aName)
+		 )
+
+		 getArea(
+			 ()->
+			 	return 0
+		 )
+	)
+)
+
+// instantiate
+circle(Shape(theName:'circle'))
+
+print('Circle name: '+circle.name)
+
+
+
+
