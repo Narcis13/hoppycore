@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r0IVqfQ+issW0aqg/IqumRB6nOj5q6+OjMSl1C1NquR3g/qYZqbbcGKBJrF2pKE+Nw9svqGFo9/OAVJnRfH2Ug==",
+  "dgSpecHash": "sK/A0lkr1Mfuvssg5Nb5LVFS55lw1awYBhIW4O87kyFV2gT5HBB6oskpY7sy0nL7hXrny4Xh3ZCoTwtFF3VWdg==",
   "success": true,
-  "projectFilePath": "/Users/narcisbrindusescu/DEV/hobby/hoppycore/hoppy.csproj",
+  "projectFilePath": "C:\\hobby\\hoppy\\hoppy.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

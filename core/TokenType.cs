@@ -2,7 +2,7 @@ using System;
 
 namespace hoppy {
 
-enum TokenType {
+public enum TokenType {
     Literal,
     Name,
     Operator,

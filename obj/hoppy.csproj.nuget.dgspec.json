@@ -1,25 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/narcisbrindusescu/DEV/hobby/hoppycore/hoppy.csproj": {}
+    "C:\\hobby\\hoppy\\hoppy.csproj": {}
   },
   "projects": {
-    "/Users/narcisbrindusescu/DEV/hobby/hoppycore/hoppy.csproj": {
+    "C:\\hobby\\hoppy\\hoppy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/narcisbrindusescu/DEV/hobby/hoppycore/hoppy.csproj",
+        "projectUniqueName": "C:\\hobby\\hoppy\\hoppy.csproj",
         "projectName": "hoppy",
-        "projectPath": "/Users/narcisbrindusescu/DEV/hobby/hoppycore/hoppy.csproj",
-        "packagesPath": "/Users/narcisbrindusescu/.nuget/packages/",
-        "outputPath": "/Users/narcisbrindusescu/DEV/hobby/hoppycore/obj/",
+        "projectPath": "C:\\hobby\\hoppy\\hoppy.csproj",
+        "packagesPath": "C:\\Users\\ADMINISTRATOR1\\.nuget\\packages\\",
+        "outputPath": "C:\\hobby\\hoppy\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/narcisbrindusescu/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ADMINISTRATOR1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
