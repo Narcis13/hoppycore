@@ -23,18 +23,19 @@ namespace hoppy {
                 }
                 else {
                     if(operators.Count>0){
-                        if(operators.Peek().bindingPower<t.bindingPower){
+                        if(operators.Peek().value=="("||operators.Peek().bindingPower<t.bindingPower){
                                 operators.Push(t);
                         }
                         else {
                             //do something
-                        while(operators.Peek().value!="("||operators.Count>0){
+                        while(operators.Count>0){
                             Node op1 = operands.Pop();
                             Node op2 = operands.Pop();
                             operands.Push(new BinaryExpression(op2,operators.Pop(),op1));
+                            if(operators.Count>0&&operators.Peek().value=="(") operators.Pop();
                         }
 
-                        operators.Push(t);
+                       if(t.value!=")") operators.Push(t);
                         }
                     }else {
                         operators.Push(t);
