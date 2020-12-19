@@ -18,7 +18,7 @@ namespace hoppy {
 
         foreach (Token t in tokens)
             {
-                if(t.type==TokenType.Literal){
+                if(t.type==TokenType.Literal||t.type==TokenType.Name){
                     operands.Push(new Node(t));
                 }
                 else {
@@ -28,11 +28,14 @@ namespace hoppy {
                         }
                         else {
                             //do something
-                        while(operators.Count>0){
+                        while(operators.Count>0){ //aici mai trebuie lucrat sa nu se duca pina la zero daca intilneste paranteza ( ...
                             Node op1 = operands.Pop();
                             Node op2 = operands.Pop();
                             operands.Push(new BinaryExpression(op2,operators.Pop(),op1));
-                            if(operators.Count>0&&operators.Peek().value=="(") operators.Pop();
+                            if(operators.Count>0&&operators.Peek().value=="("){
+                                operators.Pop();
+                                break;
+                            } 
                         }
 
                        if(t.value!=")") operators.Push(t);
